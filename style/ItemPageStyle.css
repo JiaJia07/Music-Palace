@@ -1,0 +1,58 @@
+body {
+    background-color: #E9E9E9;
+}
+main {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    background-color: #E9E9E9;
+    
+}
+
+.card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+button.card {
+    float: left;
+    width: 21%;
+    height: 500px;
+    background-color: white;
+    border: none;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 50px;
+    padding: 20px;
+    transition: transform.5s;
+}
+
+.image img{
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.product_name {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+    background-color: white;
+    margin-left: 0.8vw;
+}
+
+.product_price {
+    font-family: 'TT Norms', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 16px;
+    text-align: left;
+    background-color: white;
+    margin-left: 0.8vw;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
